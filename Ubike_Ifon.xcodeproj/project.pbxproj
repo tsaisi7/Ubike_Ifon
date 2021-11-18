@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66B4580B27133A1100E813B7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4580A27133A1100E813B7 /* WebViewController.swift */; };
+		66B4580E27133D4800E813B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4580D27133D4800E813B7 /* WebKit.framework */; };
 		66FF31B8270DF6F300F55641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF31B7270DF6F300F55641 /* AppDelegate.swift */; };
 		66FF31BA270DF6F300F55641 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF31B9270DF6F300F55641 /* SceneDelegate.swift */; };
 		66FF31BC270DF6F300F55641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF31BB270DF6F300F55641 /* ViewController.swift */; };
 		66FF31BF270DF6F300F55641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF31BD270DF6F300F55641 /* Main.storyboard */; };
 		66FF31C1270DF6F700F55641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FF31C0270DF6F700F55641 /* Assets.xcassets */; };
 		66FF31C4270DF6F700F55641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF31C2270DF6F700F55641 /* LaunchScreen.storyboard */; };
+		66FF31D1270DFA1F00F55641 /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF31D0270DFA1F00F55641 /* StationViewController.swift */; };
+		66FF31D4270E01A300F55641 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF31D3270E01A300F55641 /* StationTableViewCell.swift */; };
+		66FF31D7270EBB1700F55641 /* StationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF31D6270EBB1700F55641 /* StationDetailViewController.swift */; };
+		66FF31DA270EC08000F55641 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FF31D9270EC08000F55641 /* MapKit.framework */; };
+		FD8A7BC38942FE25A620B8AF /* Pods_Ubike_Ifon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA5E8C9547B5C9F3E79134D /* Pods_Ubike_Ifon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EA5E8C9547B5C9F3E79134D /* Pods_Ubike_Ifon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ubike_Ifon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B4580A27133A1100E813B7 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		66B4580D27133D4800E813B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		66FF31B4270DF6F300F55641 /* Ubike_Ifon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ubike_Ifon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FF31B7270DF6F300F55641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66FF31B9270DF6F300F55641 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		66FF31C0270DF6F700F55641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66FF31C3270DF6F700F55641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66FF31C5270DF6F700F55641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FF31D0270DFA1F00F55641 /* StationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewController.swift; sourceTree = "<group>"; };
+		66FF31D3270E01A300F55641 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		66FF31D6270EBB1700F55641 /* StationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailViewController.swift; sourceTree = "<group>"; };
+		66FF31D9270EC08000F55641 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		92D42A1A98182DB570F79C38 /* Pods-Ubike_Ifon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubike_Ifon.release.xcconfig"; path = "Target Support Files/Pods-Ubike_Ifon/Pods-Ubike_Ifon.release.xcconfig"; sourceTree = "<group>"; };
+		F7D35969A90530253F2C5AB7 /* Pods-Ubike_Ifon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubike_Ifon.debug.xcconfig"; path = "Target Support Files/Pods-Ubike_Ifon/Pods-Ubike_Ifon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FF31DA270EC08000F55641 /* MapKit.framework in Frameworks */,
+				FD8A7BC38942FE25A620B8AF /* Pods_Ubike_Ifon.framework in Frameworks */,
+				66B4580E27133D4800E813B7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39C0356BDA1B128610C882A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B4580D27133D4800E813B7 /* WebKit.framework */,
+				66FF31D9270EC08000F55641 /* MapKit.framework */,
+				5EA5E8C9547B5C9F3E79134D /* Pods_Ubike_Ifon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66FF31AB270DF6F300F55641 = {
 			isa = PBXGroup;
 			children = (
 				66FF31B6270DF6F300F55641 /* Ubike_Ifon */,
 				66FF31B5270DF6F300F55641 /* Products */,
+				9578F51D0DE49561CA5F9979 /* Pods */,
+				39C0356BDA1B128610C882A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +94,21 @@
 				66FF31C0270DF6F700F55641 /* Assets.xcassets */,
 				66FF31C2270DF6F700F55641 /* LaunchScreen.storyboard */,
 				66FF31C5270DF6F700F55641 /* Info.plist */,
+				66FF31D0270DFA1F00F55641 /* StationViewController.swift */,
+				66FF31D3270E01A300F55641 /* StationTableViewCell.swift */,
+				66FF31D6270EBB1700F55641 /* StationDetailViewController.swift */,
+				66B4580A27133A1100E813B7 /* WebViewController.swift */,
 			);
 			path = Ubike_Ifon;
+			sourceTree = "<group>";
+		};
+		9578F51D0DE49561CA5F9979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7D35969A90530253F2C5AB7 /* Pods-Ubike_Ifon.debug.xcconfig */,
+				92D42A1A98182DB570F79C38 /* Pods-Ubike_Ifon.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66FF31C8270DF6F700F55641 /* Build configuration list for PBXNativeTarget "Ubike_Ifon" */;
 			buildPhases = (
+				9E703D200253341F8DA3A95D /* [CP] Check Pods Manifest.lock */,
 				66FF31B0270DF6F300F55641 /* Sources */,
 				66FF31B1270DF6F300F55641 /* Frameworks */,
 				66FF31B2270DF6F300F55641 /* Resources */,
+				2C2F03FC4756448AB930B414 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +178,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C2F03FC4756448AB930B414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubike_Ifon/Pods-Ubike_Ifon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubike_Ifon/Pods-Ubike_Ifon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ubike_Ifon/Pods-Ubike_Ifon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E703D200253341F8DA3A95D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ubike_Ifon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66FF31B0270DF6F300F55641 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FF31D7270EBB1700F55641 /* StationDetailViewController.swift in Sources */,
 				66FF31BC270DF6F300F55641 /* ViewController.swift in Sources */,
+				66FF31D4270E01A300F55641 /* StationTableViewCell.swift in Sources */,
 				66FF31B8270DF6F300F55641 /* AppDelegate.swift in Sources */,
+				66B4580B27133A1100E813B7 /* WebViewController.swift in Sources */,
 				66FF31BA270DF6F300F55641 /* SceneDelegate.swift in Sources */,
+				66FF31D1270DFA1F00F55641 /* StationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +375,7 @@
 		};
 		66FF31C9270DF6F700F55641 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D35969A90530253F2C5AB7 /* Pods-Ubike_Ifon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +395,7 @@
 		};
 		66FF31CA270DF6F700F55641 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D42A1A98182DB570F79C38 /* Pods-Ubike_Ifon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
